@@ -1,11 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom/client";
 
-const heading = React.createElement("div", {id:"parent"}, React.createElement("div", {id:"child"}, [React.createElement("h1", {}, "React learning Muthu"), React.createElement("h2", {}, "I am h2 tag")]))
+// which is like normal js funciton so inside jsx Component we can call this is like function
+const Title = () => {
+  return <h1>!*...React Fire...*!</h1>;
+};
 
-console.log(heading, "heading")
+const HeadingComponent = () => (
+  <div id="container">
+    <Title />
+    {Title()}
+    <h1>React Functional Component</h1>
+  </div>
+);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
-root.render(heading)
+root.render(<HeadingComponent />);
