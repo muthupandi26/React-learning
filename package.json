@@ -1,0 +1,23 @@
+{
+  "name": "react-hunger",
+  "version": "1.0.0",
+  "description": "React learning by Muthupandi",
+  "scripts": {
+    "start" : "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Muthupandi",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist" : [
+    "last 2 versions"
+  ]
+}
