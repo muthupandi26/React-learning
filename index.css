@@ -21,14 +21,16 @@
 }
 
 .search {
+    display: flex;
+    align-items: center;
     padding: 10px;
 }
 
-.res-card {
+.res-card, .shimmerCard {
     width: 200px;
-    height: 310px;
-    
+    height: 350px;
     padding: 5px;
+    background-color: #f0f0f0;
 }
 
 .res-card:hover {
@@ -45,3 +47,13 @@
     cursor: pointer;
 }
 
+.res-container, .shimmerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.loginBtn {
+    padding: 0 10px;
+    margin-right: 10px;
+}
