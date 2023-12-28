@@ -19,3 +19,8 @@
 - Https
 - Tree shaking - remove unused code
 - Different dev & prod bundles
+
+# 2 Types of Routing
+
+- Client side Routing
+- Server side Routing
