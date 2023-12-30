@@ -24,3 +24,12 @@
 
 - Client side Routing
 - Server side Routing
+
+# optimize our code
+
+- Chunking
+- Code Splitting
+- Dynamic Bundling
+- Lazy loading
+- On demand loading
+- Dynamix import
