@@ -1,13 +1,16 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 export const Header = () => {
   const [loginText, setLoginText] = useState("Login");
 
   const onlineStatus = useOnlineStatus();
-  console.log("first render");
+
+  const { loggedInUser } = useContext(UserContext);
+  // console.log(data);
 
   return (
     <div className="flex justify-between sm:bg-green-200">
@@ -29,7 +32,9 @@ export const Header = () => {
           <li className="px-4">
             <Link to={"/Grocery"}>Grocery</Link>
           </li>
-          <li className="px-4">Cart</li>
+          <li className="px-4">
+            <li>Cart</li>
+          </li>
           <button
             onClick={() =>
               loginText === "Login"
@@ -38,9 +43,9 @@ export const Header = () => {
             }
             className="loginBtn"
           >
-            {console.log("inside render")}
             {loginText}
           </button>
+          <li className="px-4 font-bold">{loggedInUser}</li>
         </ul>
       </div>
     </div>
