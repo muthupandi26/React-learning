@@ -42,3 +42,22 @@
 - Slice (cartSlice)
 - dispatch(action)
 - Selector
+
+# Types of Testing (developer)
+
+- Unit Testing
+- Integration Testing
+- End to End Testing
+
+# Setting up Testing in our app
+
+- Install React testing library
+- Installed jest
+- Installed Babel dependencies
+- Configure Babel
+- Configure Pacel config file to disable default Babel transpilation
+- Jest - npx jest --init
+- Install jsdom library
+- Install @babel/preset-react - to make JSX work in test cases
+- Include @babel/preset-react inside my babel configuration
+- Install @testing-library/jest-dom
