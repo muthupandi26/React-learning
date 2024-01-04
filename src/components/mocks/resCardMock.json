@@ -1,0 +1,88 @@
+
+
+{
+    "info": {
+        "id": "184526",
+        "name": "Astoria Veg",
+        "cloudinaryImageId": "sjl1h0zjesag23aztzrs",
+        "locality": "Thuraipakkam",
+        "areaName": "Thuraipakkam",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+            "Indian",
+            "Chinese",
+            "Beverages"
+        ],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "17259",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 3.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25 mins",
+            "lastMileTravelString": "3.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-01-04 23:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                    "description": "pureveg"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "pureveg",
+                                "imageId": "v1695133679/badges/Pure_Veg111.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "30% OFF",
+            "subHeader": "UPTO ₹75"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/astoria-veg-thuraipakkam-chennai-184526",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

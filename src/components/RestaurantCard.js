@@ -1,6 +1,8 @@
 import { FOOD_IMG } from "../utils/constants";
 
 const RestaurantCard = ({ data }) => {
+  console.log(data, "dataaa");
+
   return (
     <div className="m-4 p-4 w-[200px] bg-gray-100 rounded-lg hover:bg-gray-300">
       <img
