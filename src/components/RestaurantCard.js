@@ -4,7 +4,10 @@ const RestaurantCard = ({ data }) => {
   console.log(data, "dataaa");
 
   return (
-    <div className="m-4 p-4 w-[200px] bg-gray-100 rounded-lg hover:bg-gray-300">
+    <div
+      data-testid="restCard"
+      className="m-4 p-4 w-[200px] bg-gray-100 rounded-lg hover:bg-gray-300"
+    >
       <img
         className="object-cover w-[200px] h-[200px] rounded-lg"
         src={FOOD_IMG + data?.info?.cloudinaryImageId}
